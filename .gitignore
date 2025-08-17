@@ -2,3 +2,4 @@
 .kiro/
 .env
 node_modules
+.next/

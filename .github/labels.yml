@@ -1,0 +1,145 @@
+# Priority Labels
+- name: "priority: critical"
+  color: "d73a4a"
+  description: "Critical priority - immediate attention required"
+
+- name: "priority: high"
+  color: "f85149"
+  description: "High priority - important for next release"
+
+- name: "priority: medium"
+  color: "f9c513"
+  description: "Medium priority - nice to have"
+
+- name: "priority: low"
+  color: "7ce38b"
+  description: "Low priority - future consideration"
+
+# Type Labels
+- name: "type: bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "type: feature"
+  color: "0075ca"
+  description: "New feature or request"
+
+- name: "type: enhancement"
+  color: "a2eeef"
+  description: "Enhancement to existing feature"
+
+- name: "type: documentation"
+  color: "0052cc"
+  description: "Improvements or additions to documentation"
+
+- name: "type: refactor"
+  color: "d4c5f9"
+  description: "Code refactoring without functional changes"
+
+- name: "type: task"
+  color: "fef2c0"
+  description: "Development task or chore"
+
+# Component Labels
+- name: "component: frontend"
+  color: "006b75"
+  description: "Frontend/UI related"
+
+- name: "component: backend"
+  color: "0e4b99"
+  description: "Backend/API related"
+
+- name: "component: database"
+  color: "5319e7"
+  description: "Database related"
+
+- name: "component: auth"
+  color: "b60205"
+  description: "Authentication/Authorization"
+
+- name: "component: real-time"
+  color: "ff6b6b"
+  description: "Real-time features (SSE, WebSockets)"
+
+- name: "component: notifications"
+  color: "ff9f43"
+  description: "Email/notification system"
+
+- name: "component: reporting"
+  color: "10ac84"
+  description: "Analytics and reporting"
+
+- name: "component: deployment"
+  color: "2f3542"
+  description: "Deployment and DevOps"
+
+# Status Labels
+- name: "status: needs-triage"
+  color: "fbca04"
+  description: "Needs to be triaged"
+
+- name: "status: in-progress"
+  color: "0052cc"
+  description: "Currently being worked on"
+
+- name: "status: blocked"
+  color: "d73a4a"
+  description: "Blocked by dependency or external factor"
+
+- name: "status: needs-review"
+  color: "006b75"
+  description: "Needs code review"
+
+- name: "status: ready-to-merge"
+  color: "0e4b99"
+  description: "Ready for merge"
+
+# Epic Labels
+- name: "epic: foundation"
+  color: "8b5a3c"
+  description: "Project foundation and setup"
+
+- name: "epic: core-features"
+  color: "8b5a3c"
+  description: "Core request management features"
+
+- name: "epic: real-time"
+  color: "8b5a3c"
+  description: "Real-time tracking and updates"
+
+- name: "epic: analytics"
+  color: "8b5a3c"
+  description: "Analytics and reporting"
+
+- name: "epic: optimization"
+  color: "8b5a3c"
+  description: "Performance and security optimization"
+
+- name: "epic: deployment"
+  color: "8b5a3c"
+  description: "Production deployment and documentation"
+
+# Special Labels
+- name: "good first issue"
+  color: "7057ff"
+  description: "Good for newcomers"
+
+- name: "help wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "This issue or pull request already exists"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "This will not be worked on"
+
+- name: "breaking-change"
+  color: "d73a4a"
+  description: "Contains breaking changes"
+
+- name: "security"
+  color: "d73a4a"
+  description: "Security related issue"

@@ -48,13 +48,13 @@ const BasecampLanding = () => {
   const testimonials = [
     {
       quote: "BASECAMP eliminated our double-booking headaches completely. The real-time updates mean our staff always knows the current status.",
-      author: "Staff Sergeant Johnson",
+      author: "- Someone.... Probably",
       role: "MWR Operations"
     },
     {
       quote: "Finally, we can submit requests online and actually track our status. The old whiteboard system was a nightmare.",
-      author: "Captain Davis", 
-      role: "23rd Security Forces"
+      author: "Seaman Timmy", 
+      role: "USS Helena"
     }
   ];
 
@@ -181,7 +181,7 @@ const BasecampLanding = () => {
                     <div className="bg-white rounded-lg p-4 border-l-4 border-blue-500">
                       <div className="flex justify-between items-start">
                         <div>
-                          <h4 className="font-medium text-gray-900">23rd Security Forces</h4>
+                          <h4 className="font-medium text-gray-900">USS Ingraham</h4>
                           <p className="text-sm text-gray-600">Annual Picnic - 150 attendees</p>
                           <div className="flex items-center text-xs text-gray-500 mt-1">
                             <Clock className="w-3 h-3 mr-1" />
@@ -195,8 +195,8 @@ const BasecampLanding = () => {
                     <div className="bg-white rounded-lg p-4 border-l-4 border-yellow-500">
                       <div className="flex justify-between items-start">
                         <div>
-                          <h4 className="font-medium text-gray-900">52nd Maintenance</h4>
-                          <p className="text-sm text-gray-600">Team Building - 75 attendees</p>
+                          <h4 className="font-medium text-gray-900">USS Rodney M. Davis</h4>
+                          <p className="text-sm text-gray-600">Annual Picnic - 75 attendees</p>
                           <div className="flex items-center text-xs text-gray-500 mt-1">
                             <Clock className="w-3 h-3 mr-1" />
                             Scheduled: Sept 22

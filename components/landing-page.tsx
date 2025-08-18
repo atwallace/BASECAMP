@@ -170,7 +170,7 @@ const BasecampLanding = () => {
               <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6">
                   <div className="flex items-center justify-between mb-6">
-                    <h3 className="text-lg font-semibold text-gray-900">Today's Schedule</h3>
+                    <h3 className="text-lg font-semibold text-gray-900">Today&apos;s Schedule</h3>
                     <div className="flex items-center text-green-600 text-sm font-medium">
                       <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
                       Live Updates
@@ -286,7 +286,7 @@ const BasecampLanding = () => {
                   ))}
                 </div>
                 <blockquote className="text-lg text-gray-700 mb-6 italic">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </blockquote>
                 <div>
                   <div className="font-semibold text-gray-900">{testimonial.author}</div>
